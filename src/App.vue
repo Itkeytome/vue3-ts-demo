@@ -3,7 +3,13 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <RouterView />
+  <div class="app">
+    <RouterView />
+  </div>
 </template>
 
-<style scoped></style>
+<style lang="less" scoped>
+.app {
+  height: 100%;
+}
+</style>
